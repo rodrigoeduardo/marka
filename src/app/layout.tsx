@@ -25,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <link rel="icon" href="/assets/images/favicon.ico" sizes="any" />
+      </head>
+
       <body className={cn(inter.className, ptSansNarrow.className)}>
         <Navbar />
 
