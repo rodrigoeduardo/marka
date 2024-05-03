@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        turquoise: "#1cdafc",
+      },
+      fontFamily: {
+        ptSans: ["var(--font-pt-sans-narrow)"],
+        inter: ["var(--font-inter)"],
+      },
     },
   },
   plugins: [],
